@@ -1,0 +1,71 @@
+body {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	background-image: url("https://i.imgur.com/PJuPED6.jpg");
+	background-position: bottom;
+	background-size: contain;
+	margin: 0px;
+}
+
+.titleimage {
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+
+.titleimage img {
+	margin-top: 5vw;
+	display: inline-block;
+	width: 30%;
+}
+
+.navButton {
+	color: white;
+	text-decoration: none;	
+	margin-right: 2vw;
+	margin-left: 2vw;
+	font-family: 'Wendy One', sans-serif;
+	font-weight: bolder;
+	font-size: 1.2vw;
+	
+}
+
+.navBar {
+	margin-top: 5vw;
+	text-align: center;
+	position: relative;
+}
+
+.navBar ul {
+	list-style: none;
+	width: 100%;
+	display: flex;
+	position: relative;
+	justify-content: center;
+	padding: 0;
+}
+
+.navBar li {
+	position: relative;
+	float: left;
+	display: inline;
+	padding: 0 4vw; /* Change distance between nav buttons */
+}
+
+h3 { 
+	color: white;
+	margin-top: 10vw;
+	text-align: center;
+	position: relative;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: bolder;
+}
+
+.trailerVideo {
+	display: block;
+	margin-top: 2vw;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	position: relative;
+	border: 3px solid #FFFFFF;
+}
